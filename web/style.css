@@ -1,0 +1,297 @@
+@charset "utf-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(https://www.nato-pa.int/sites/default/files/styles/920_350/public/inline-images/Cyber%20Security%20%20%284%29.jpg);
+}
+
+#wrapper{
+    background: #fff;
+    margin: 20px auto;
+    width: 960px;
+    padding: 15px;
+}
+
+#header{
+    margin: 0 0 10px 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#logo{
+    float:left;
+}
+
+#logo img{
+    width: 50px;
+}
+
+/* navbar */
+#nav{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 15px;
+    height: 50px;
+    border-top: solid 1px #808080;
+    border-bottom: solid 1px #808080;
+    text-align: right;
+}
+
+#nav ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#nav ul li{
+    display: inline-block; 
+    position: relative;   
+}
+
+#nav ul li a{   
+    text-decoration: none;
+    color: #000000;
+    height: 25px;
+    padding: 8px 5px 0 5px;
+    line-height: 15px;
+    display: block;
+}
+
+#nav ul li a:hover{
+    color: #daa520;
+    background-color: rgba(80, 80, 80, 0.10);
+}
+
+#nav ul li ul{
+    background-color: #ffffff;
+    position: absolute;
+    top:100%;
+    width: 100px;
+    left: 0;
+    display: none;
+}
+
+#nav ul li:hover ul{
+    display: block;
+}
+
+#nav ul li ul li{
+    display: block;
+    text-align: center;
+    padding-top: 0px;
+}
+
+/* main layout and homepage*/
+#main{
+    width: 74%;
+    float: left;
+    margin: 0 0 10px 0;
+}
+
+.title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 26px;
+}
+
+.title a{
+    text-decoration: none;
+    color: #888888;
+}
+
+#featured-photo img{
+    padding-left: 75px;
+    margin: 50px 0 0 0;
+    width:550px;
+    height:350px;
+}
+
+#photo-gallery{
+    padding-left: 75px;
+}
+
+#photo-gallery img{
+    margin: 50px 0 0 0;
+    width:250px;
+}
+
+.gallery-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.photo-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+/* sidebar */
+#sidebar{
+    width: 24%; 
+    float: right;
+    margin: 115px 0 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding-right: 15px;
+    margin-bottom: 50px;
+}
+
+.sidebar-title a{
+    text-decoration: none;
+}
+
+.sidebar-text{
+    padding-bottom: 20px;
+}
+
+#sidebar-image img{
+    width:150px;
+    padding-left: 40px;
+}
+
+#sidebar-link p{
+    text-align: center;
+}
+
+#sidebar-link a{
+    text-decoration: none;
+}
+
+#footer{
+    text-align: center;
+    padding: 5px;
+    border-top: solid 1px #808080;
+    border-bottom: solid 1px #808080;
+    clear: both;    
+}
+
+/* categories */
+#featured-section{
+    margin-bottom: 80px;
+}
+
+/* about page*/
+#main-about{
+    background: #fff;
+    margin: 50px auto;
+    width: 760px;
+    padding: 15px;
+}
+
+#about-image img{
+    width: 50%;
+}
+
+/* contact form at about page */
+.contact{
+    background-color: grey !important;
+    width: 85%;
+    height: 430px;
+    margin: 0px auto;
+}
+
+.contact-form{
+    height: 350px;
+    padding-top: 50px;
+}
+
+.contact-form{
+    width: 50%;
+    float:left;
+}
+
+.contact-form input{
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    border: #010102 1px solid;
+    margin-left: 40px;
+}
+
+.contact-form button{
+    height: 40px;
+    width: 80px;
+    border: #010102 1px solid;
+    margin-left: 40px;
+}
+
+.contact-info{
+    float: right;
+    width: 50%;    
+}
+
+.contact-info h2{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.contact-info p{
+    padding-left: 20px;
+    padding-right: 20px;
+    word-break: break-all;
+    font-size: large;
+}
+
+.text{
+    text-align: left;
+    min-width: 400px;
+    max-width: 800px;
+    margin: 0px auto;
+    font-size:24px;
+    padding: 0px 10px 0px 10px;
+    line-height: 35px;
+    font-style: italic;
+}
+
+/* styling used in multiple pages*/
+.section-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.news-item{
+    display: inline-block;
+}
+.news{
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.news img{
+    height: 180px;
+    margin: 20px;
+    margin-top: 100px;
+    transition: all 0.3s ease-out;
+    transform: scale(1.2, 1.2); 
+}
+
+
+.section-image img{
+    width:60%;
+    margin-bottom: 50px;
+}
+
+#divider{
+    background-color: #808080; 
+    height: 5px; 
+    width: 300px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.italic{
+    font-style: italic;
+}
+
